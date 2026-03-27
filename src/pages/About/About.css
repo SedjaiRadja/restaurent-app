@@ -1,0 +1,180 @@
+/* About Page Styles */
+.about-page {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: tomato;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.hero-decoration {
+  display: none;
+}
+
+/* Main Container */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Welcome Section */
+.welcome-section {
+  margin-bottom: 3rem;
+}
+
+.welcome-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.welcome-card h2 {
+  font-size: 3.5rem;
+  color: tomato;
+  margin-bottom: 1rem;
+}
+
+.welcome-card p {
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Content Grid */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card Styles */
+.story-card,
+.team-card,
+.values-card,
+.visit-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid tomato;
+}
+.story-card:hover,
+.team-card:hover,
+.values-card:hover,
+.visit-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.card-icon {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.story-card h3,
+.team-card h3,
+.values-card h3,
+.visit-card h3 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.story-card p,
+.team-card p,
+.values-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.3rem;
+}
+
+/* Visit Card Specific */
+.visit-details {
+  color: #666;
+}
+
+.visit-details h4 {
+  color: #333;
+  font-size: 1.4rem;
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.visit-details p {
+  margin: 0.3rem 0;
+  font-size: 1.2rem;
+}
+
+/* Back to Home Button */
+.back-home {
+  display: inline-block;
+
+  padding: 10px 12px;
+  color: white;
+  background-color: tomato;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  width: 500px;
+  padding: 25px 0px;
+  text-align: center;
+}
+
+.back-home:hover {
+  background-color: #ff5a3f;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.back-home:active {
+  transform: translateY(-1px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
